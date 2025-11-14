@@ -1,0 +1,11 @@
+<meta charset="UTF-8">
+<script>
+    /*Elaborar um Programa para Uma Loja,O qual Leia o Preço de Um Produto
+        e Informe as Opções de Pagamento da Loja.
+    Calcule e Informe o Valor para Pagamentos á Vista com 10% de Desconto e o Valor em 3x */
+    
+    const preco = Number(prompt('Digite o Preço R$: '))
+    const desconto = preco - preco * 0.10
+    const parcelado = preco / 3
+    alert(`Preço R$: ${preco.toFixed(2)}.\nÁ Vista(10%) R$: ${desconto.toFixed(2)}.\nParcelado (3x) R$: ${parcelado.toFixed(2)}`)
+</script>
